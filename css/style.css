@@ -280,7 +280,7 @@ header {
     height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 1.2s ease;
+    transition: transform 0.7s ease;
 }
 
 /* MAC */
@@ -494,7 +494,15 @@ h4{
     transition: transform 1.2s ease;
 }
 
-.grid-item img:hover, .grid-mac img:hover, .grid-watch img:hover {
+/* .grid-item img:hover, .grid-mac img:hover, .grid-watch img:hover {
+    transform: scale(1.3);
+} */
+
+.grid-item img:hover{
+    transform: scale(1.1);
+}
+
+.grid-mac img:hover, .grid-watch img:hover {
     transform: scale(1.3);
 }
 
